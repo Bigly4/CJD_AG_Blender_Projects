@@ -1,0 +1,20 @@
+Startsymbol X:
+abc
+abcabc
+abcabcabc
+abcabcabcabc
+abcabcabcabcabc
+
+Startsymbol Y:
+c
+acb
+bca
+aacbb
+bacba
+
+Startsymbol Z:
+abcabcaacbb
+abc
+c
+abcc
+acb
