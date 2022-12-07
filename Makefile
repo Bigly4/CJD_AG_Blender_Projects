@@ -1,8 +1,8 @@
-hello:
-	echo "Hello, World" 
-%.o: %.c
-	cc $< -o $@
+OBJ = factors primefactors factorial_factors armstrong
+CC = gcc
+
+all: $(OBJ)
+$(OBJ): %: %.c
+	$(CC) $< -o $@
 clean:
-	rm -f *.o all
-all:
-	echo "All"
+	rm -f $(OBJ)
